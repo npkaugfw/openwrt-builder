@@ -155,3 +155,5 @@ config_package_add luci-app-taskplan
 config_package_add luci-lib-ipkg
 #网络速度测试
 #config_package_add luci-app-netspeedtest
+echo "CONFIG_PACKAGE_luci-app-fcm=y" >> .config
+echo "CONFIG_PACKAGE_luci-i18n-fcm-zh-cn=y" >> .config
