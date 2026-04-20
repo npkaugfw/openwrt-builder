@@ -20,3 +20,4 @@
 #echo "src-git mtk_openwrt_feed https://git01.mediatek.com/openwrt/feeds/mtk-openwrt-feeds" >> feeds.conf.default
 #./scripts/feeds update -a
 #./scripts/feeds install -a
+echo "src-git fanchmwrt https://github.com/fanchmwrt/fanchmwrt.git;fanchmwrt-24.10.4" >> feeds.conf.default
